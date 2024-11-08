@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    background-color: var(--branco);
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#pesquisa{
+    display: flex;
+    align-items: center;
+    
+}
+
+#pesquisa input{
+    height: 40px;
+    width: 368px;
+    border: 1.2px solid var(--cinza);
+    border-right: 0px;
+}
+
+#pesquisa button{
+    height: 40px;
+    width: 57px;
+    border: 1.2px solid var(--cinza);
+    background-color: var(--gelo);
+}
+
+.lista-navbar{
+    display: flex;  
+    gap: 1.5rem; 
+    align-items: center;
+}
+
+.lista-navbar li{
+   list-style-type: none;
+}
